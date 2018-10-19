@@ -35,7 +35,7 @@ pod 'TTLaunchKit'
 
 ## Author
 
-claudeli@yeah.net, claudeli@yeah.net
+claudeli@yeah.net
 
 ## License
 
