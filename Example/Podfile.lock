@@ -1,0 +1,51 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - CLTools (1.1.2)
+  - TTLaunchKit (1.0.0):
+    - CLTools
+    - TTNetworking
+    - YYKit
+  - TTNetworking (1.0.3):
+    - AFNetworking
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - TTLaunchKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - CLTools
+    - TTNetworking
+    - YYKit
+
+EXTERNAL SOURCES:
+  TTLaunchKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  CLTools: 541300af83c647c9361b99af9a9c29b63f2aefcc
+  TTLaunchKit: 136a03b9dc240ca752dfe45ae3d8fce4c48de089
+  TTNetworking: 4cc5d70bef4521431aaf9ad3e2a2ddabba24231e
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: c2910c5306ebc945450624f2f095e6039fbe533f
+
+COCOAPODS: 1.5.3

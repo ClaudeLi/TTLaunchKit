@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TTLaunchKit_Example' do
+  pod 'TTLaunchKit', :path => '../'
+
+  target 'TTLaunchKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
